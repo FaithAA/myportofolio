@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #111;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0;
+}
+
+.hero {
+  height: 80vh;
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1400&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  background: #ff4d6d;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.section {
+  padding: 80px 120px;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.08);
+}
+.resume-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background: white;
+  color: #111;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.project a {
+  display: inline-block;
+  margin-top: 14px;
+  color: #ff4d6d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.project-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+.project-page h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.project-page .subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 28px;
+}
+
+.project-section {
+  margin-top: 36px;
+}
+
+.project-section h2 {
+  margin-bottom: 12px;
+  font-size: 26px;
+}
+
+.project-section p,
+.project-section li {
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.project-section ul {
+  padding-left: 20px;
+}
+
+.media-placeholder {
+  margin-top: 18px;
+  padding: 28px;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  background: #fafafa;
+  color: #666;
+  text-align: center;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 40px;
+  color: #ff4d6d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
